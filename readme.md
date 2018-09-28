@@ -7,6 +7,14 @@ Forward pipe operator allows one to increase readability of functional code.
 
 ## Usage:
 
+### Installation:
+
+All released Functional.Pipeline versions can be obtained via NuGet Package Manager.
+
+| Package              | Version | Build                                                                                                               |
+| -------------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
+| Functional.Pipeline  | 1.0.0   | [![Build Status](https://travis-ci.org/ninjah187/functional-pipe-operator-for-csharp.svg?branch=release)](https://travis-ci.org/ninjah187/functional-pipe-operator-for-csharp) |
+
 ### Extension:
 
 ```cs
