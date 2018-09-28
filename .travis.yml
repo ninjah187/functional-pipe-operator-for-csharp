@@ -4,7 +4,7 @@ branches:
 language: csharp
 solution: Functional.sln
 mono: none
-dotnet: 2.1.0
+dotnet: 2.1
 dist: trusty
 script:
   - dotnet test Functional.PipelineTests
