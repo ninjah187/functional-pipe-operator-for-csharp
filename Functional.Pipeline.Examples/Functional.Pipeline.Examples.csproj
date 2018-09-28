@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Functional.Collections\Functional.Collections.csproj" />
+    <ProjectReference Include="..\Functional.Pipe\Functional.Pipeline.csproj" />
+    <ProjectReference Include="..\Functional.String\Functional.String.csproj" />
+  </ItemGroup>
+
+</Project>
