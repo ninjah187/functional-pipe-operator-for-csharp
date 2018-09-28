@@ -1,0 +1,17 @@
+branches:
+  only:
+  - release
+language: csharp
+solution: Functional.sln
+mono: none
+dotnet: 2.0.0
+dist: trusty
+script:
+  - dotnet test Functional.PipelineTests
+  - dotnet pack --configuration Release Functional.Pipeline
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: dotnet nuget push Functional.Pipeline/bin/Release/*.nupkg --api-key $NUGET_API_KEY --source https://www.nuget.org/api/v2/package
+    on:
+      branch: release
