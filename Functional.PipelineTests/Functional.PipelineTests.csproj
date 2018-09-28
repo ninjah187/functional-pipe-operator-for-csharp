@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Functional.Pipe\Functional.Pipeline.csproj" />
+    <ProjectReference Include="..\Functional.Pipeline\Functional.Pipeline.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Functional.Pipeline;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 using static Functional.PipelineTests.Utils;
 
-namespace Functional.Pipeline.Tests
+namespace Functional.PipelineTests
 {
     public class ExtensionsTests
     {

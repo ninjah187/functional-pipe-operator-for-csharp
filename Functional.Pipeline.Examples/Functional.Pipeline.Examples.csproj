@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Functional.Collections\Functional.Collections.csproj" />
-    <ProjectReference Include="..\Functional.Pipe\Functional.Pipeline.csproj" />
+    <ProjectReference Include="..\Functional.Pipeline\Functional.Pipeline.csproj" />
     <ProjectReference Include="..\Functional.String\Functional.String.csproj" />
   </ItemGroup>
 

@@ -2,7 +2,8 @@
 
 ## C# functional programming forward pipe operator-like functions.
 
-This small feature is meant to fill the gap created by lack of forward pipe operator in C#. These functions allow one to increase readability of functional code.
+This small feature is meant to fill the gap created by lack of forward pipe operator in C#.
+Forward pipe operator allows one to increase readability of functional code.
 
 ## Usage:
 
@@ -17,7 +18,7 @@ namespace Examples
     static void Piped()
     {
         var greetings = "hell".Pipe(
-            x => $"{x}o",             // hello
+            x => Append(x, "o"),      // hello
             x => Triple(x, ", "),     // hello, hello, hello
             FirstLetterToUpper,       // Hello, hello, hello
             Exclaim);                 // Hello, hello, hello!
@@ -36,7 +37,7 @@ namespace Examples
     static void Piped()
     {
         var greetings = Pipe("hell",
-            x => $"{x}o",
+            x => Append(x, "o"),
             x => Triple(x, ", "),
             FirstLetterToUpper,
             Exclaim);
