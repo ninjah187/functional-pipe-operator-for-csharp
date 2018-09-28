@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>Functional.Pipeline</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Karol Hinz karolhnz@gmail.com</Authors>
+    <Description>This small feature is meant to fill the gap created by lack of forward pipe operator in C#.</Description>
+    <ProjectUrl>https://github.com/ninjah187/functional-pipe-operator-for-csharp</ProjectUrl>
+    <PackageTags>functional programming forward pipe operator</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
