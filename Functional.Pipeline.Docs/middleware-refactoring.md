@@ -65,9 +65,9 @@ static string LocalizeForeignPathToOrigin(string foreignPath, IStringLocalizer<H
                 .Name
         },
         x => foreignLocalizer.WithCulture(OriginCulture).Pipe(
-                originLocalizer => originLocalizer[x.localizerKey].Value,
-                ToLower,
-                SkipLastLetter, // omit ending dot '.'
-                photoOriginLabel => Path.Combine("/", x.directory, $"{photoOriginLabel}-{x.size}{x.extension}"),
-                originPath => Replace(originPath, @"\", "/")));
+            originLocalizer => originLocalizer[x.localizerKey].Value,
+            ToLower,
+            SkipLastLetter, // omit ending dot '.'
+            photoOriginLabel => Path.Combine("/", x.directory, $"{photoOriginLabel}-{x.size}{x.extension}"),
+            originPath => Replace(originPath, @"\", "/")));
 ```
