@@ -1,7 +1,6 @@
-# Real life code refactor
+# Real life code refactoring
 
-Following is an example of refactoring real life code.  
-Refactored function is part of ASP.NET Core middleware I'm using in one of my projects. The middleware's purpose is to translate SEO-friendly, foreign language image request path to its native origin correspondent. Essentially, it lets serving multi-language image paths without need to maintain and store additional images for foreign languages.
+Refactored function is part of ASP.NET Core middleware. The middleware's purpose is to translate SEO-friendly, foreign language image request path to its native origin correspondent. Essentially, it lets serving multi-language image paths without need to maintain and store additional images for foreign languages.
 
 Here's everyday, object-oriented C# version of the function:
 
