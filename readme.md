@@ -15,7 +15,7 @@ All released Functional.Pipeline versions can be obtained via NuGet Package Mana
 | -------------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
 | Functional.Pipeline  | 1.0.0   | [![Build Status](https://travis-ci.org/ninjah187/functional-pipe-operator-for-csharp.svg?branch=release)](https://travis-ci.org/ninjah187/functional-pipe-operator-for-csharp) |
 
-### Extension:
+### Extension method:
 
 ```cs
 using Functional.Pipeline;
@@ -34,7 +34,7 @@ namespace Examples
 }
 ```
 
-### Static function:
+### Static method:
 
 ```cs
 using static Functional.Pipeline.Operator;
@@ -52,3 +52,7 @@ namespace Examples
     }
 }
 ```
+
+### Examples:
+
+- [Refactoring real life object-oriented code to more functional style.](https://github.com/ninjah187/functional-pipe-operator-for-csharp/blob/master/Functional.Pipeline.Docs/middleware-refactoring.md)
