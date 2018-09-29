@@ -2,7 +2,7 @@
 
 ## C# functional programming forward pipe operator-like functions.
 
-This small feature is meant to fill the gap created by lack of forward pipe operator in C#.
+This small feature is meant to fill the gap created by lack of forward pipe operator in C#. 
 Forward pipe operator allows one to increase readability of functional code.
 
 ## Usage:
